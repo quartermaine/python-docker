@@ -25,8 +25,8 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/clockbox:latest
-      - name: Build badges
-        uses: wow-actions/add-badges@v1
+      - name: Add Badges
+        uses: wow-actions/add-badges@v1.1.0
         env:
           repo_url: ${{ github.event.repository.html_url }}
           repo_name: ${{ github.event.repository.name }}
