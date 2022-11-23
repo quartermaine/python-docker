@@ -6,6 +6,7 @@
   <a href="https://github.com/wow-actions/add-badges/actions/workflows/release.yml"><img src="https://img.shields.io/github/workflow/status/wow-actions/add-badges/Release/master?logo=github&style=flat-square" alt="build" /></a>
 </p>
 <!-- [END BADGES] -->
+
 # python-docker
 
 This is a demo of a CI/CD using GitHub Actions for building Docker image and pushing image to Docker Hub for a demo app build with Flask.
